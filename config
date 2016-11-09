@@ -181,3 +181,10 @@ bar {
 exec --no-startup-id "xrandr --output HDMI1 --mode 2560x1440 --pos 0x0 --rotate normal --output VIRTUAL1 --off --output eDP1 --primary --mode 1600x900 --pos 2560x1088 --rotate normal"
 
 focus_follows_mouse no
+
+exec --no-startup-id "synapse"
+exec --no-startup-id "firefox"
+exec --no-startup-id "chrome"
+
+# keyboard layout
+setxkbmap us -variant intl
