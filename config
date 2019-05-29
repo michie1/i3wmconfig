@@ -188,7 +188,7 @@ exec --no-startup-id "xrandr --output HDMI1 --mode 1680x1050 --pos 0x0 --rotate 
 focus_follows_mouse no
 
 exec --no-startup-id "synapse"
-exec --no-startup-id "google-chrome"
+exec --no-startup-id "firefox"
 
 # keyboard layout
 setxkbmap us -variant intl
