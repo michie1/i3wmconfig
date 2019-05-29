@@ -195,10 +195,10 @@ setxkbmap us -variant intl
 # setxkbmap nl
 
 # volume keys
-bindsym XF86AudioLowerVolume exec "amixer set Master 10%-" 
-bindsym XF86AudioRaiseVolume exec "amixer set Master 10%+" 
+bindsym XF86AudioLowerVolume exec "amixer set Master 10%-"
+bindsym XF86AudioRaiseVolume exec "amixer set Master 10%+"
 bindsys XF86AudioMute exec "amixer set Master toggle"
 
 # brightness
-bindsym XF86MonBrightnessUp exec "xbacklight -inc 20" 
-bindsym XF86MonBrightnessDown exec "xbacklight -dec 20" 
+bindsym XF86MonBrightnessUp exec "xbacklight -inc 20"
+bindsym XF86MonBrightnessDown exec "xbacklight -dec 20"
