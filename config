@@ -186,8 +186,8 @@ bar {
 
 focus_follows_mouse no
 
-exec --no-startup-id "synapse"
 exec --no-startup-id "firefox"
+exec --no-startup-id "gnome-terminal"
 
 # keyboard layout
 setxkbmap us -variant intl
